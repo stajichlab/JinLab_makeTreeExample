@@ -1,9 +1,25 @@
-pep/*.fa.gz
+# Nextflow runtime
+.nextflow/
+.nextflow.log*
 work/
 results/
-logs/
-src/
+trace*.txt
+timeline*.html
+report*.html
+dag*.html
+
+# Large or regenerable inputs (recover from pep/PROVENANCE.tsv)
+pep/*.fa
+pep/*.fa.gz
 phyling_db/
-.nextflow*
+
+# Cloned pipeline source, logs, generated config dumps
+src/
+logs/
 resolved.cfg
 resolved.err
+
+# Editor / OS
+*~
+*.swp
+.DS_Store
