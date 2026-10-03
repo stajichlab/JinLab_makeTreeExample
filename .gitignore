@@ -1,0 +1,9 @@
+pep/*.fa.gz
+work/
+results/
+logs/
+src/
+phyling_db/
+.nextflow*
+resolved.cfg
+resolved.err
