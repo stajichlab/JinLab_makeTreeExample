@@ -23,3 +23,5 @@ resolved.err
 *~
 *.swp
 .DS_Store
+imgtest/
+astral_bin/
