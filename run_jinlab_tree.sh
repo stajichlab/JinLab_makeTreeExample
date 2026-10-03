@@ -6,7 +6,7 @@ cd /bigdata/stajichlab/jstajich/projects/jinlab_tree || exit 1
 export NXF_SINGULARITY_CACHEDIR=/bigdata/stajichlab/shared/singularity_cache
 module load singularity
 module load nextflow
-nextflow -c short_queue.config run stajichlab/nf_phyling \
+nextflow -ansi-log false -c short_queue.config run stajichlab/nf_phyling \
     -profile singularity_slurm,ucr_hpcc \
     --seq_type protein \
     --input /bigdata/stajichlab/jstajich/projects/jinlab_tree/pep \
