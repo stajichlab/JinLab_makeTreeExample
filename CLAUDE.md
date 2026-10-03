@@ -42,7 +42,7 @@ ASCOMYCOTA
 
 1. **Verify the taxa list** before you use it. Report any name change or doubtful placement.
 2. **Proteomes:** use FungiDB, if possible. Use one strain per taxon.
-3. **Provenance:** record where every input file came from. Give the source path or URL, the date, the size, the sequence count and the md5. Keep this in `pep/PROVENANCE.tsv`. State clearly if you copied a local file and did not download it.
+3. **Provenance:** record where every input file came from. Give the source path or URL, the date, the size, the sequence count and the md5. Keep this in `PROVENANCE.tsv`. State clearly if you copied a local file and did not download it.
 4. **Pipeline:** run `nextflow run stajichlab/nf_phyling`. This pulls the pipeline from GitHub. No clone is needed.
 5. **Tree method:** use the FastTree tree. Use the `-boot` tree (SH-like support) for the figure.
 6. **Queue:** run every step on the SLURM `short` queue. The limit is 2 hours. Use `short_queue.config` to force this.

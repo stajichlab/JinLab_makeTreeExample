@@ -8,7 +8,7 @@ timeline*.html
 report*.html
 dag*.html
 
-# Large or regenerable inputs (recover from pep/PROVENANCE.tsv)
+# Large or regenerable inputs (recover from PROVENANCE.tsv)
 pep/*.fa
 pep/*.fa.gz
 phyling_db/
